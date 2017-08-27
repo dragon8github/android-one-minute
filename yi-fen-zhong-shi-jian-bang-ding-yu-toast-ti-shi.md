@@ -2,7 +2,7 @@
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
-进入项目路径：**app/res/layout/activity\_main.xml**，为两个button添加“ID”属性。其余不变，改变的部分已经加粗
+进入项目路径：**app/res/layout/activity\_main.xml**，为两个button添加“ID”属性。@+id就和@string一样，是为了引用app/res/values/strings.xml的定义
 
 ```java
 <Button
@@ -61,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
 
 ### 你学会的知识点：
 
-1. 通过“ID”属性，绑定元素的事件“click”绑定
-2. Toast组件的使用
+1. 通过“ID”属性，绑定元素的事件“click”绑定;
+2. Toast组件的使用;
 
 ---
 
