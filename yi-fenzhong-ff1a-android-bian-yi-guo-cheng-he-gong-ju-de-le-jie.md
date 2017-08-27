@@ -8,6 +8,8 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 工具将资源文件、 代码以及AndroidManifest.xml文件 （包含应用的元数据） 编译生成.apk文件。 .apk  
 应用要在模拟器上运行，.apk文件还需以debug key签名。![](/assets/6$%D9Q}T0%~5RO0]N~%28L$3N.png)
 
+![](file:///C:\Users\Lee\AppData\Roaming\Tencent\Users\928532756\QQ\WinTemp\RichOle\{J2EERERHSOZP$P1%29]E}AP7.png)![](/assets/{J2EERERHSOZP$P1%29]E}AP7.png)
+
 ### Android 编译工具
 
 截至目前， 我们所看到的项目编译都是在Android Studio里执行的。 编译功能已整合到IDE中，  
