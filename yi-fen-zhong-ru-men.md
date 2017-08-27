@@ -2,7 +2,7 @@
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
-进入项目app/res/layout/activity\_main.xml，将下面的代码完全复制进去。然后运行模拟器查看
+进入项目路径：app/res/layout/activity\_main.xml，将下面的代码完全复制进去。然后运行模拟器查看
 
 ```
 <?xml version="1.0" encoding="utf-8"?>

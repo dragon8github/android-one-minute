@@ -2,7 +2,20 @@
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
-进入项目路径：app/java/项目名/MainActivity， 将下面的代码完全复制进去。
+进入项目路径：**app/res/layout/activity\_main.xml**，为两个button添加“ID”属性。其余不变，改变的部分已经加粗
+
+```
+<Button
+    android:id="@+id/btn1_name"
+    ...
+/>
+<Button
+    android:id="@+id/btn2_name"
+    ...
+/>
+```
+
+进入项目路径：app/java/项目名/MainActivity， 将下面的代码完全复制进去。运行模拟器
 
 （AKA:  通过Alt + Enter快捷键可以利用Android Studio编辑器快速引入import依赖包）
 
