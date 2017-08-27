@@ -4,7 +4,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 进入项目路径：**app/res/layout/activity\_main.xml**，为两个button添加“ID”属性。其余不变，改变的部分已经加粗
 
-```
+```java
 <Button
     android:id="@+id/btn1_name"
     ...
