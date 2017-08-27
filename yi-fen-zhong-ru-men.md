@@ -37,8 +37,9 @@
 
 ### 你学会的知识点：
 
-* 1、元素的标签，如LinearLayout、TextView、Button等
-* 2、元素的属性，如layout\_width、orientation、text、padding等
+* 元素的标签，如LinearLayout、TextView、Button等
+* 元素的属性，如layout\_width、orientation、text、padding等
+* 创建和使用字符串资源，在项目路径app/res/values/strings.xml可查看和定义，然后代码中通过@string/btn1\_name引用
 
 ### 1、android:layout\_width 和 android:layout\_height 属性：
 
@@ -60,6 +61,14 @@
 ### 3、 android:padding 属性：
 
 为元素增加内边距。即除内容本身外，还需增加额外指定量的空间。这样屏幕上显示的问题与按钮之间便会留有一定的空间，使整体显得更为美观。 （不理解dp的意思？dp即density-independent pixel，指与密度无关像素，稍后的章节有它的概念介绍 ）
+
+### 4、android:text 属性：
+
+TextView 与 Button 组件具有 android:text 属性。该属性指定组件要显示的文字内容。
+
+如 android:text="Fuck" ，但这通常不是个好主意。比较好的做法是：将文字内容放置在独立的字符串资源XML文件中（项目路径app/res/values/strings.xml），然后引用它们。这样也便于对应用进行本地化。
+
+
 
 # 一分钟赞赏
 
