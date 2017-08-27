@@ -4,7 +4,9 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 ### Android 编译过程
 
-整个编译过程中，Android开发工具将资源文件、 代码以及AndroidManifest.xml文件 （包含应用的元数据） 编译生成.apk文件。 .apk应用要在模拟器上运行，.apk文件还需以debug key签名。 
+整个编译过程中，Android开发  
+工具将资源文件、 代码以及AndroidManifest.xml文件 （包含应用的元数据） 编译生成.apk文件。 .apk  
+应用要在模拟器上运行，.apk文件还需以debug key签名。
 
 ![](file:///C:\Users\Lee\AppData\Roaming\Tencent\Users\928532756\QQ\WinTemp\RichOle\6$%D9Q}T0%~5RO0]N~%28L$3N.png)![](file:///C:\Users\Lee\AppData\Roaming\Tencent\Users\928532756\QQ\WinTemp\RichOle\6$%D9Q}T0%~5RO0]N~%28L$3N.png)![](/assets/6$%D9Q}T0%~5RO0]N~%28L$3N.png)
 
@@ -18,27 +20,21 @@ IDE负责调用aapt等Android标准编译工具，但编译过程本身仍由And
 
 要使用Gradle，请切换到项目目录并执行以下命令：
 
-**$ ./gradlew tasks  
-**
+**$ ./gradlew tasks  **
 
 如果是Windows系统，执行以下命令：
 
-**&gt; gradlew.bat tasks  
-**
+**&gt; gradlew.bat tasks  **
 
-执行以上命令会显示一系列可用任务。你需要的是任务是installDebug，因此，再执行以下  
-命令：
+执行以上命令会显示一系列可用任务。你需要的是任务是installDebug，因此，再执行以下命令：
 
-**$ ./gradlew installDebug  
-**
+**$ ./gradlew installDebug  **
 
 如果是Windows系统，执行以下命令：
 
-**&gt; gradlew.bat installDebug  
-**
+**&gt; gradlew.bat installDebug  **
 
-以上命令将把应用安装到当前连接的设备上，但不会运行它。要运行应用，需要在设备上手  
-动启动。
+以上命令将把应用安装到当前连接的设备上，但不会运行它。要运行应用，需要在设备上手动启动。
 
 ---
 
