@@ -4,7 +4,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 进入项目路径：app/res/layout/activity\_main.xml，将下面的代码完全复制进去。然后运行模拟器查看
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     android:layout_width="match_parent"
