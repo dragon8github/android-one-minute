@@ -1,6 +1,6 @@
-#### 一分钟目标
+# 一分钟目标
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+> GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -33,20 +33,37 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 </LinearLayout>
 ```
 
-android:layout\_width 和 android:layout\_height 属性：
+![](file:///C:\Users\Lee\AppData\Roaming\Tencent\Users\928532756\QQ\WinTemp\RichOle\EY~4I~1A4%28U%29AKO[O[7_F]M.png)![](/assets/EY~4I~1A4%28U%29AKO[O[7_F]M.png)
+
+### 1、android:layout\_width 和 android:layout\_height 属性：
 
 | 属性 | 内容 |
 | :---: | :---: |
 | match\_parent | 视图与其父视图大小相同。 |
 | wrap\_content | 视图将根据其展示的内容自动调整大小。 |
 
-#### 
+### 2、android:orientation 属性：
 
-#### 一分钟赞赏
+它决定两者的子组件是水平放置还是垂直放置。根 LinearLayout 是垂直的，子 LinearLayout 是水平的。
+
+| 属性 | 内容 |
+| :---: | :---: |
+| vertical | 垂直 |
+| horizontal | 水平 |
+
+### 3、 android:padding 属性：
+
+为元素增加内边距。除内容本身外，还需增加额外指定量的空间。这样屏幕上显示的问题与按钮之间便会留有一定的空间，使整体显得更为美观。 （不理解dp的意思？dp即density-independent pixel，指与密度无关像素，稍后的章节有它的概念介绍 ）
+
+
+
+# 一分钟赞赏
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
-#### 一分钟指责
+---
+
+# 一分钟指责
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
