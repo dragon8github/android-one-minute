@@ -68,6 +68,8 @@ TextView 与 Button 组件具有 android:text 属性。该属性指定组件要�
 
 如 android:text="Fuck" ，但这通常不是个好主意。比较好的做法是：将文字内容放置在独立的字符串资源XML文件中（项目路径**app/res/values/strings.xml**），然后引用它们。这样也便于对应用进行本地化。
 
+---
+
 # 一分钟赞赏
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
