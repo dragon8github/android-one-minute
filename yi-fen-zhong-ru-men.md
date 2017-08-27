@@ -35,6 +35,11 @@
 
 ![](file:///C:\Users\Lee\AppData\Roaming\Tencent\Users\928532756\QQ\WinTemp\RichOle\EY~4I~1A4%28U%29AKO[O[7_F]M.png)![](/assets/EY~4I~1A4%28U%29AKO[O[7_F]M.png)
 
+### 你学会的知识点：
+
+* 1、元素的标签，如LinearLayout、TextView、Button等
+* 2、元素的属性，如layout\_width、orientation、text、padding等
+
 ### 1、android:layout\_width 和 android:layout\_height 属性：
 
 | 属性 | 内容 |
@@ -54,7 +59,7 @@
 
 ### 3、 android:padding 属性：
 
-为元素增加内边距。除内容本身外，还需增加额外指定量的空间。这样屏幕上显示的问题与按钮之间便会留有一定的空间，使整体显得更为美观。 （不理解dp的意思？dp即density-independent pixel，指与密度无关像素，稍后的章节有它的概念介绍 ）
+为元素增加内边距。即除内容本身外，还需增加额外指定量的空间。这样屏幕上显示的问题与按钮之间便会留有一定的空间，使整体显得更为美观。 （不理解dp的意思？dp即density-independent pixel，指与密度无关像素，稍后的章节有它的概念介绍 ）
 
 # 一分钟赞赏
 
