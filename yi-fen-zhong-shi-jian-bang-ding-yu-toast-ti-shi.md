@@ -59,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
 
 ![](/assets/import.png)
 
+### 你学会的知识点：
+
+1. 通过“ID”属性，绑定元素的事件“click”绑定
+2. Toast组件的使用
+
 ---
 
 # 一分钟赞赏
