@@ -4,7 +4,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 进入项目路径：app/java/项目名/MainActivity， 将下面的代码完全复制进去。
 
-（AKA:  通过Alt + Enter快捷键可以利用Android stdio编辑器快速引入import依赖包）
+（AKA:  通过Alt + Enter快捷键可以利用Android Studio编辑器快速引入import依赖包）
 
 ```java
 package com.example.lee.geoquiz;
