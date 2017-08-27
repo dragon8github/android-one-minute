@@ -39,8 +39,8 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 ### 你学会的知识点：
 
-1. 元素的标签，如LinearLayout、TextView、Button等
-2. 元素的属性，如layout\_width、orientation、text、padding等
+1. 元素标签的使用，如LinearLayout、TextView、Button等
+2. 元素属性的使用，如layout\_width、orientation、text、padding等
 3. 创建和使用字符串资源，在项目路径app/res/values/strings.xml可查看和定义，然后代码中通过@string/btn1\_name引用
 
 ### 1、android:layout\_width 和 android:layout\_height 属性：
