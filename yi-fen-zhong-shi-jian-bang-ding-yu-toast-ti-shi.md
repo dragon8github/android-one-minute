@@ -17,7 +17,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 进入项目路径：app/java/项目名/MainActivity， 将下面的代码完全复制进去。运行模拟器
 
-（AKA:  通过Alt + Enter快捷键可以利用Android Studio编辑器快速引入import依赖包）
+（AKA:  先将鼠标光标聚焦在关键字上，然后通过Alt + Enter快捷键可以快速智能引入import依赖包）
 
 ```java
 package com.example.lee.geoquiz;
@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
 1. 通过“ID”属性，绑定元素的事件“click”绑定;
 2. Toast组件的使用;
+3. 依赖包的引用全靠Alt + Enter快捷键智能引入（鼠标光标聚焦在关键字上）
 
 ---
 
