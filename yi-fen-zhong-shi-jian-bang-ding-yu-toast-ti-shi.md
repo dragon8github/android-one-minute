@@ -2,17 +2,41 @@
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
-进入项目路径：**app/res/layout/activity\_main.xml**，为两个button添加“ID”属性。@+id就和@string一样，是为了引用app/res/values/strings.xml的定义
+进入项目路径：**app/res/layout/activity\_main.xml**，为两个button添加“ID”属性。其余代码不变。
+
+@+id就和@string一样，是为了引用app/res/values/strings.xml的定义。
 
 ```java
-<Button
-    android:id="@+id/btn1_name"
-    ...
-/>
-<Button
-    android:id="@+id/btn2_name"
-    ...
-/>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="@string/app_name"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn1_name"
+            />
+        <Button
+            android:id="@+id/btn2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn2_name"
+            />
+    </LinearLayout>
+</LinearLayout>
 ```
 
 进入项目路径：app/java/项目名/MainActivity， 将下面的代码完全复制进去。运行模拟器
