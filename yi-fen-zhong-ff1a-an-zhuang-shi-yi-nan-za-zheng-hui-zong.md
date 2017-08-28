@@ -2,7 +2,7 @@
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
-> 打开 SDK Manager.exe 闪退
+> #### 打开 SDK Manager.exe 闪退
 
 1、找到android.bat，在源码处找到
 
@@ -29,9 +29,7 @@ for /f %%a in ('%java_exe% -jar lib\archquery.jar') do set swt_path=lib\%%a
 set swt_path=lib\x86_64
 ```
 
-
-
-> 打开 AVD Manager.exe 闪退
+> #### 打开 AVD Manager.exe 闪退
 
 找到C:\android-sdk-windows\tools\lib\find\_java.bat 修改源码，
 
@@ -62,11 +60,7 @@ goto :EOF
 set javaw_exe=C:\Program Files\Java\jdk1.8.0_121\bin\java.javaw_exe
 ```
 
-> 第一次打开Android Studio 提示 “unable to access android sdk add-on list”
-
-
-
-
+> #### 第一次打开Android Studio 提示 “unable to access android sdk add-on list”
 
 ---
 
