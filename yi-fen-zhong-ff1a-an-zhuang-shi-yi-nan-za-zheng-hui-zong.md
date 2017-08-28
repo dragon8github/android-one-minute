@@ -51,9 +51,11 @@ set javaw_exe=C:\Program Files\Java\jdk1.8.0_121\bin\java.javaw_exe
 
 > #### 第一次打开Android Studio 提示 “unable to access android sdk add-on list”
 
-不要着急，解决方法是：点击cancel。然后重启Android studio。这时就会自动提示你下载Android SDK了。
+不要着急，解决方法是：点击"Cancel"。然后会弹出新的界面指引你下载Android SDK。
 
-如果没有提示下载的话。那么就这样做：在自己安装的目录下找到：bin\idea.properties打开这个文件末尾添加一行disable.android.first.run=true。之后再次运行就可以下载依赖的sdk了
+或者重启Android studio。这时就会自动提示你下载Android SDK了。
+
+如果没有提示下载的话也没关系，你可以这么做：在自己安装的目录下找到\bin\idea.properties，打开这个文件末尾添加一行disable.android.first.run=true。之后再次运行Android Studio弹出Android SDK下载指引界面了。
 
 下载SDK的过程中请确保开启fq。因为下载的资源在国外，如果没有fq的话某些资源会下载失败。那么你的Android SDK也无法使用前功尽弃。
 
