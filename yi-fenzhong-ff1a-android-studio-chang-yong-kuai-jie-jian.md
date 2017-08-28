@@ -24,6 +24,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 | Ctrl + W | 选中代码，连续按会有其他效果 |
 | Ctrl＋Alt＋T | 选中代码，可以把代码包在一块 |
 | Ctrl＋Alt＋V | 把括号内的值赋成一个变量 |
+| Ctrl＋Shift＋J | 合并多行代码 |
 
 ---
 
