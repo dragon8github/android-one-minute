@@ -3,6 +3,7 @@
 * [前言](README.md)
 * [模板](mo-ban.md)
 * [一分钟：安装](chapter1.md)
+* [一分钟：Android Studio常用快捷键](yi-fenzhong-ff1a-android-studio-chang-yong-kuai-jie-jian.md)
 * [一分钟：疑难杂症](yi-fen-zhong-ff1a-an-zhuang-shi-yi-nan-za-zheng-hui-zong.md)
 * [一分钟：入门UI与布局](yi-fen-zhong-ru-men.md)
 * [一分钟：UI事件绑定与Toast提示组件](yi-fen-zhong-shi-jian-bang-ding-yu-toast-ti-shi.md)
