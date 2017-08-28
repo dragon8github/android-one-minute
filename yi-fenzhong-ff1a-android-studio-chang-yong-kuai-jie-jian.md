@@ -28,7 +28,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 | Ctrl＋Shift＋J | 合并多行代码 |
 | Alt + Insert | 可以创建类里面任何字段的 getter 与 setter 方法. |
 
-其他组合操作
+其他组合操作推荐：
 
 | 1、Alt + Insert快捷键无法使用时，可以右击构造方法后方区域，选择Generate... → Getter And Setter菜单项。为每个变量都生成获取方法与设置方法。还可以通过以下配置来达到get/set生成的个性化，以下配置有什么作用呢？譬如我们为 mTextResId 生成获取方法时，它生成的是 getTextResId\(\) 而不是 getMTextResId\(\) 方法；而在为 mAnswerTrue 生成获取方法 时，生成的是 isAnswerTrue\(\) 而不是 isMAnswerTrue\(\) 方法。 |
 | :--- |

@@ -2,9 +2,9 @@
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
-进入项目路径：**app/res/layout/activity\_main.xml**，为两个button添加“ID”属性。其余代码不变。
+进入项目路径：**app/res/layout/activity\_main.xml**，为两个 button 添加 “ID” 属性。其余代码不变。
 
-@+id就和@string一样，是为了引用app/res/values/strings.xml的定义。
+@+id 和 @string一样，是为了引用 app/res/values/strings.xml 的定义。
 
 ```java
 <?xml version="1.0" encoding="utf-8"?>
@@ -85,9 +85,9 @@ public class MainActivity extends AppCompatActivity {
 
 ### 你学会的知识点：
 
-1. 通过“ID”属性，绑定元素的事件“click”绑定;
-2. Toast组件的使用;
-3. 依赖包的引用全靠Alt + Enter快捷键，然后选择import Class智能引入依赖包（鼠标光标聚焦在关键字上）
+1. 通过 “ID” 属性，绑定元素的事件 “click” 绑定;
+2. Toast 组件的使用;
+3. 依赖包的引用全靠 Alt + Enter 快捷键，然后选择 import Class 智能引入依赖包（鼠标光标聚焦在关键字上）
 
 ---
 
