@@ -11,7 +11,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 set java_exe = call lib\find_java.bat
 
 # 替换 
-set java_exe=C:\Program Files\Java\jdk1.8.0_121\bin\java.exe
+set java_exe = C:\Program Files\Java\jdk1.8.0_121\bin\java.exe
 ```
 
 2、继续查找
@@ -23,8 +23,6 @@ for /f %%a in ('%java_exe% -jar lib\archquery.jar') do set swt_path=lib\%%a
 # 替换
 set swt_path=lib\x86_64
 ```
-
-
 
 > #### 打开 AVD Manager.exe 闪退
 
@@ -50,8 +48,6 @@ goto :EOF
 # 替换为
 set javaw_exe=C:\Program Files\Java\jdk1.8.0_121\bin\java.javaw_exe
 ```
-
-
 
 > #### 第一次打开Android Studio 提示 “unable to access android sdk add-on list”
 
