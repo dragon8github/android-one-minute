@@ -22,6 +22,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 | Ctrl + Alt + Left / Right | 返回至上次浏览的位置 |
 | F2 / Shift + F2 | 高亮错误或警告快速定位 |
 | Ctrl + W | 选中代码，连续按会有其他效果 |
+| Ctrl＋Alt＋T | 选中代码，可以通过try/catch、if/else、for等把代码包在一块 |
 
 ---
 
