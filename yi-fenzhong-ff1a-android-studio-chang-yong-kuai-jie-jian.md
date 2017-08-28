@@ -2,6 +2,16 @@
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
+
+
+快捷键大全：
+
+> http://www.android-studio.org/index.php/docs/experience/142-androidstudio-shortcut-keys
+
+
+
+个人常用的快捷键推荐：
+
 | 快捷键 | 效果 |
 | :---: | :---: |
 | Ctrl-Shift-Space | 快速调出补全列表 |
