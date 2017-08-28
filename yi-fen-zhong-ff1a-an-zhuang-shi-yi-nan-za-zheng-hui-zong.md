@@ -4,61 +4,54 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 > #### 打开 SDK Manager.exe 闪退
 
-1、找到android.bat，在源码处找到
+1、找到android.bat
 
 ```ruby
-set java_exe= 
-call lib\find_java.bat
-```
+# 第一处查找
+set java_exe = call lib\find_java.bat
 
-改为
-
-```ruby
+# 替换 
 set java_exe=C:\Program Files\Java\jdk1.8.0_121\bin\java.exe
 ```
 
-2、找到
+2、继续查找
 
 ```ruby
+# 第二处查找
 for /f %%a in ('%java_exe% -jar lib\archquery.jar') do set swt_path=lib\%%a
-```
 
-改为
-
-```ruby
+# 替换
 set swt_path=lib\x86_64
 ```
 
+
+
 > #### 打开 AVD Manager.exe 闪退
 
-找到C:\android-sdk-windows\tools\lib\find\_java.bat 修改源码，
-
-1、找到43-44行，将
+1、找到C:\android-sdk-windows\tools\lib\find\_java.bat 修改源码
 
 ```ruby
+# 找到43-44行
 for /f "delims=" %%a in ('"%~dps0\find_java%arch_ext%.exe" -s') do set java_exe=%%a
 if not defined java_exe goto :CheckFailed
-```
 
-修改为
-
-```ruby
+# 替换为
 set java_exe=C:\Program Files\Java\jdk1.8.0_121\bin\java.exe
 ```
 
-2、找到49-50行，将
+2、继续查找
 
 ```ruby
+# 找到49-50行
 for /f "delims=" %%a in ('"%~dps0\find_java%arch_ext%.exe" -s -w') do set javaw_exe=%%a
 if not exist "%javaw_exe%" set javaw_exe=%java_exe%
 goto :EOF
-```
 
-修改为
-
-```ruby
+# 替换为
 set javaw_exe=C:\Program Files\Java\jdk1.8.0_121\bin\java.javaw_exe
 ```
+
+
 
 > #### 第一次打开Android Studio 提示 “unable to access android sdk add-on list”
 
