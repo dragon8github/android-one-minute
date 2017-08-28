@@ -10,6 +10,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 | 快捷键 | 效果 |
 | :---: | :---: |
+| Ctrl + Shift + S | 打开主菜单 |
 | Ctrl + Shift + Space | 快速调出补全列表 |
 | Ctrl + Shift + N | 查找并快速打开文件 |
 | Ctrl + N | 查找并快速打开类 |
@@ -25,9 +26,17 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 | Ctrl＋Alt＋T | 选中代码，可以把代码包在一块 |
 | Ctrl＋Alt＋V | 把括号内的值赋成一个变量 |
 | Ctrl＋Shift＋J | 合并多行代码 |
-| Alt + Insert | 可以创建类里面任何字段的 getter 与 setter 方法.如果快捷键无法使用，可以右击构造方法后方区域，选择Generate... → Getter And Setter菜单项。为每个变量都生成获取方法与设置方法。 |
+| Alt + Insert | 可以创建类里面任何字段的 getter 与 setter 方法. |
 
----
+
+
+其他组合操作
+
+| 1、Alt + Insert快捷键无法使用时，可以右击构造方法后方区域，选择Generate... → Getter And Setter菜单项。为每个变量都生成获取方法与设置方法。 |
+| :--- |
+
+
+
 
 # 一分钟赞赏
 
