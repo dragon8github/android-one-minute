@@ -10,12 +10,12 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 | 快捷键 | 效果 |
 | :---: | :---: |
-| CtrlShift-Space | 快速调出补全列表 |
+| Ctrl + Shift + Space | 快速调出补全列表 |
 | Ctrl + Shift + N | 查找文件 |
-| Ctr l +Alt + L | 格式化代码 |
+| Ctrl  + Alt + L | 格式化代码 |
 | Ctrl + E | 最近访问的文件列表 |
 | Ctrl+F / Ctrl+R | 查找文本 / 替换文本 |
-| Shift+F6 | 重命名 |
+| Shift + F6 | 重命名 |
 | Ctrl + Q | 显示注释文档 |
 | Ctrl + Alt + left / right | 返回至上次浏览的位置 |
 | F2 / Shift+F2 | 高亮错误或警告快速定位 |
