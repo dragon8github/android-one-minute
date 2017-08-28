@@ -19,6 +19,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 | Ctrl+Q | 显示注释文档 |
 | Ctrl+Alt+ left/right | 返回至上次浏览的位置 |
 | F2 或Shift+F2 | 高亮错误或警告快速定位 |
+| Ctrl+W | 选中代码，连续按会有其他效果 |
 
 ---
 
