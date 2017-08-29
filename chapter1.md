@@ -14,6 +14,12 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 > [http://www.oracle.com/technetwork/java/index.html](http://www.oracle.com/technetwork/java/index.html)
 
+
+
+必须先运行Android SDK Manager.exe 根据指引安装相关的包，然后才能运行相关的模拟器
+
+
+
 # 一分钟赞赏
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
