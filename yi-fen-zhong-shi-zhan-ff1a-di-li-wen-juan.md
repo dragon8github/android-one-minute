@@ -5,7 +5,8 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 新建Question.java
 
 ```java
-package com.example.lee.geoquiz;
+package com.example.lizhaohong.myapplication;
+
 public class Question {
     private int mTextResId;
     private boolean mAnswerTrue;
@@ -80,7 +81,7 @@ public class Question {
 </LinearLayout>
 ```
 
-添加题目库， 打开Strings.xml
+添加题目库， 打开/res/Values/Strings.xml
 
 ```
 <resources>
@@ -101,7 +102,8 @@ public class Question {
 为next按钮和Text文本添加内容， 回到MainActivity.java文件中
 
 ```java
-package com.example.lee.geoquiz;
+package com.example.lizhaohong.myapplication;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -117,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView mQuestionTextView;
     private int mCurrentIndex = 0;
 
-    private Question[] mQuestionBank = new Question[] {
+    private Question[] mQuestionBank = new Question[]{
             new Question(R.string.question_oceans, true),
             new Question(R.string.question_mideast, false),
             new Question(R.string.question_africa, false),
