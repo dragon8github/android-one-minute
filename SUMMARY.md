@@ -5,7 +5,7 @@
 * [一分钟：安装](chapter1.md)
 * [一分钟：入门UI与布局](yi-fen-zhong-ru-men.md)
 * [一分钟：UI事件绑定与Toast提示组件](yi-fen-zhong-shi-jian-bang-ding-yu-toast-ti-shi.md)
-* [一分钟实战：地理问卷](yi-fen-zhong-shi-zhan-ff1a-di-li-wen-juan.md)
+* [一分钟实战：地理知识问卷](yi-fen-zhong-shi-zhan-ff1a-di-li-wen-juan.md)
 
 ## 扩展阅读
 

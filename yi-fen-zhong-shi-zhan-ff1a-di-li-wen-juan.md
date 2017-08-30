@@ -2,6 +2,10 @@
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
+在项目工具窗口中， 右键单击 com.bignerdranch.android.geoquiz 类包， 选择New → Java Class菜单项。如图所示，类名处填入 Question ，然后单击OK按钮。
+
+![](/assets/[[C%29%A%29U~A~4LJD8_QI%29OBD.png)
+
 新建Question.java
 
 ```java
@@ -34,7 +38,7 @@ public class Question {
 }
 ```
 
-修改一下界面， layout/activity\_main.xml 添加一个button，移除TextView的Text属性，我们会使用动态的方式赋值。
+修改一下 layout/activity\_main.xml 界面，添加一个button，移除TextView的Text属性，我们会使用动态的方式赋值。
 
 ```java
 <?xml version="1.0" encoding="utf-8"?>
