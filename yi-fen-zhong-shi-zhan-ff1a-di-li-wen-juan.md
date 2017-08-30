@@ -4,7 +4,8 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 在项目工具窗口中， 右键单击 com.bignerdranch.android.geoquiz 类包， 选择New → Java Class菜单项。如图所示，类名处填入 Question ，然后单击OK按钮。
 
-![](/assets/[[C%29%A%29U~A~4LJD8_QI%29OBD.png)![](/assets/1.png)
+![](/assets/1.png)
+
 
 新建Question.java
 
