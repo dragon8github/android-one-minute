@@ -80,9 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-
-<img src="/assets/import.png -w150" style="width:100px;height:100px" />
-![](/assets/2ILKTQXCD]HF)7NJ[)5MMOS.png)
+![](/assets/4.png)
 
 
 ### 你学会的知识点：
