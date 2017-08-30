@@ -81,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-![]()
 
 ### 你学会的知识点：
 
