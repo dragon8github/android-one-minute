@@ -1,8 +1,10 @@
-# 一分钟目标
+![](/assets/[[C)%A\)U~A~4LJD8\_QI\)OBD.png\)\# 一分钟目标
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
 进入项目路径：**app/res/layout/activity\_main.xml**，为两个 button 添加 “ID” 属性。其余代码不变。
+
+
 
 @+id 和 @string一样，是为了引用 app/res/values/strings.xml 的定义。
 
