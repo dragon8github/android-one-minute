@@ -35,7 +35,8 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 </LinearLayout>
 ```
 
-![](file:///C:\Users\Lee\AppData\Roaming\Tencent\Users\928532756\QQ\WinTemp\RichOle\EY~4I~1A4%28U%29AKO[O[7_F]M.png)![](/assets/EY~4I~1A4%28U%29AKO[O[7_F]M.png)
+![](/assets/3.png)
+
 
 ### 你学会的知识点：
 
