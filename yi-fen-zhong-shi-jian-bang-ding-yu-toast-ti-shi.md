@@ -81,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
+<img src="/assets/import.png" witdh="100px" height="100px" />
+
 
 ### 你学会的知识点：
 
