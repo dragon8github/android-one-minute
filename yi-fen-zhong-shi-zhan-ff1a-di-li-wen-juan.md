@@ -1,11 +1,12 @@
-# 一分钟目标
+```
+一分钟目标
+```
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
 在项目工具窗口中， 右键单击 com.bignerdranch.android.geoquiz 类包， 选择New → Java Class菜单项。如图所示，类名处填入 Question ，然后单击OK按钮。
 
 ![](/assets/1.png)
-
 
 新建Question.java
 
@@ -136,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        
         mQuestionTextView = (TextView) findViewById(R.id.questionText);
         int question = mQuestionBank[mCurrentIndex].getTextResId();
         mQuestionTextView.setText(question);
@@ -144,6 +145,7 @@ public class MainActivity extends AppCompatActivity {
         mTrueButton = (Button) findViewById(R.id.btn1_name);
         mFalseButton = (Button) findViewById(R.id.btn2_name);
         mNextButton = (Button) findViewById(R.id.next_name);
+        
         mNextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -169,6 +171,10 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
+运行模拟器，不停的点击NEXT按钮，可以发现不断的切换TextView文本内容
+
+![](/assets/6.png)
 
 # 一分钟赞赏
 

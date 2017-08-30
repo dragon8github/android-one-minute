@@ -12,6 +12,6 @@
 ## 扩展阅读
 
 * [一分钟：疑难杂症](yi-fen-zhong-ff1a-an-zhuang-shi-yi-nan-za-zheng-hui-zong.md)
-* [一分钟：Android Studio常用快捷键](yi-fenzhong-ff1a-android-studio-chang-yong-kuai-jie-jian.md)
+* [一分钟：Android Studio常用快捷键和使用技巧](yi-fenzhong-ff1a-android-studio-chang-yong-kuai-jie-jian.md)
 * [一分钟：了解Android编译过程与核心编译工具Gradle](yi-fenzhong-ff1a-android-bian-yi-guo-cheng-he-gong-ju-de-le-jie.md)
 
