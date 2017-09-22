@@ -13,6 +13,7 @@
 
 ## 第二章
 
+* [一分钟：genymotion模拟器](yi-fen-zhong-ff1a-genymotion-mo-ni-qi.md)
 * [一分钟：Activity的生命周期](activityde-sheng-ming-zhou-qi.md)
 * 一分钟：Android调试技巧
 * 一分钟：Android SDK版本和兼容问题
