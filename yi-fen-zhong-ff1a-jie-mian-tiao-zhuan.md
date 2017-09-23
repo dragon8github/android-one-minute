@@ -6,7 +6,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 2、在AndroidManifest.xml中，在&lt;application /&gt;内配置这个视图，加入 &lt;activity android:name=".test"&gt;&lt;/activity&gt;， 最终大致如下：
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lee.myapplication" >
