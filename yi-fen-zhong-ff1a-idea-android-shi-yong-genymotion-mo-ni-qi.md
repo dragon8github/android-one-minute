@@ -1,12 +1,11 @@
 # 一分钟目标
 
-接下来要让IDEA 和 Genymotion 结合，这需要插件的支持。
+接下来要让Android / IDEA 和 Genymotion 结合，这需要编辑器插件的支持。
 
 **按下CTRL + ALT + S &gt; Plugins &gt; Browse repositories.. &gt; 输入Genymotion &gt; install &gt; 重启IDEA**![](/assets/sadazzxc.png)
 
 重启完IDEA之后，我们需要显示开启Genymotion的按钮：顶部菜单 &gt; View &gt; Toolbar
 
-  
 ![](http://images2015.cnblogs.com/blog/922445/201705/922445-20170520174135994-1573657581.png)
 
 点击一下上图最后一个图标，配置一下genymotion.exe的所在目录即可，比如我的是C:\Genymotion\
@@ -35,7 +34,7 @@
 
 然后重新编译一下：顶部菜单 &gt; Build &gt; Rebuild Project
 
-继续报错：**【Gradle version 2.10 is required. Current version is 2.8. If using the gradle wrapper, try editing the distributionUrl in E:\RX\gradle\wrapper\gradle-wrapper.properties to gradle-2.10-all.zip  】**
+继续报错：**【Gradle version 2.10 is required. Current version is 2.8. If using the gradle wrapper, try editing the distributionUrl in E:\RX\gradle\wrapper\gradle-wrapper.properties to gradle-2.10-all.zip  】**
 
 （2）打开项目目录，右键项目 &gt; show in Explorer![](http://images2015.cnblogs.com/blog/922445/201705/922445-20170520201550369-1393360116.png)
 
@@ -47,7 +46,7 @@
 
 报错2：【未知】
 
-打开 app &gt; build.gradle 查看里面大部分的SdkVersion 都指向了25.这是因为项目默认使用了Android 7.x 而它的版本号就是25，前面我们也说到了。我们使用了Android 6.X，版本号为23 才能正常运行一些东西。所以这里大部分的数据请修改为23.但请先别急着修改。先进行下面一个操作
+打开 app &gt; build.gradle 查看里面大部分的SdkVersion 都指向了25.这是因为项目默认使用了Android 7.x 而它的版本号就是25，前面我们也说到了。我们使用了Android 6.X，版本号为23 才能正常运行一些东西。所以这里大部分的数据请修改为23.但请先别急着修改。先进行下面一个操作
 
 我们先需要运行Android SDK中的管理工具【SDK Manager.exe】。在Tools栏目中选择23的版本。这里推荐23.0.3版本。然后进行安装。
 
