@@ -19,7 +19,6 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
         <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -34,7 +33,6 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 package com.example.lee.myapplication;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-
 public class test extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -13,14 +13,14 @@
 
 ## 第二章
 
-* [一分钟：genymotion模拟器](yi-fen-zhong-ff1a-genymotion-mo-ni-qi.md)
+* [一分钟：安装genymotion模拟器](yi-fen-zhong-ff1a-genymotion-mo-ni-qi.md)
 * [一分钟：IDEA / Android 使用 Genymotion模拟器](yi-fen-zhong-ff1a-idea-android-shi-yong-genymotion-mo-ni-qi.md)
 * [一分钟：界面跳转](yi-fen-zhong-ff1a-jie-mian-tiao-zhuan.md)
 * [一分钟：界面传值](yi-fen-zhong-ff1a-jie-mian-chuan-zhi.md)
+* [一分钟：浏览页面、打电话与权限设置](yi-fen-zhong-ff1a-liu-lan-ye-mian-3001-da-dian-hua-yu-quan-xian-she-zhi.md)
 * [一分钟：Activity的生命周期](activityde-sheng-ming-zhou-qi.md)
 * 一分钟：Android调试技巧
 * [一分钟：Android SDK版本和兼容问题](yi-fenzhong-ff1a-android-sdk-ban-ben-he-jian-rong-wen-ti.md)
-* [一分钟：浏览页面、打电话与权限设置](yi-fen-zhong-ff1a-liu-lan-ye-mian-3001-da-dian-hua-yu-quan-xian-she-zhi.md)
 
 ## 第三章
 
