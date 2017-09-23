@@ -4,7 +4,31 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 1、在res/layout中新建一个Layout resource file作为测试界面test.xml。
 
-2、新建一个test.java类，指向我们刚刚创建的test视图
+2、在AndroidManifest.xml中，在&lt;application /&gt;内配置这个视图，加入 &lt;activity android:name=".test"&gt;&lt;/activity&gt;， 最终大致如下：
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lee.myapplication" >
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".test"></activity>
+    </application>
+</manifest>
+```
+
+3、新建一个test.java类，指向我们刚刚创建的test视图
 
 ```java
 package com.example.lee.myapplication;
@@ -19,7 +43,7 @@ public class test extends AppCompatActivity {
 }
 ```
 
-3、在主页中，编写跳转代码
+4、在主页中，编写跳转代码
 
 ```java
 package com.example.lee.myapplication;
