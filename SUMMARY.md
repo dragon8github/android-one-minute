@@ -13,7 +13,7 @@
 
 ## 第二章
 
-* [一分钟：安装genymotion模拟器](yi-fen-zhong-ff1a-genymotion-mo-ni-qi.md)
+* [一分钟：安装Genymotion模拟器](yi-fen-zhong-ff1a-genymotion-mo-ni-qi.md)
 * [一分钟：IDEA / Android 使用 Genymotion模拟器](yi-fen-zhong-ff1a-idea-android-shi-yong-genymotion-mo-ni-qi.md)
 * [一分钟：界面跳转](yi-fen-zhong-ff1a-jie-mian-tiao-zhuan.md)
 * [一分钟：界面传值](yi-fen-zhong-ff1a-jie-mian-chuan-zhi.md)
@@ -38,5 +38,5 @@
 * [一分钟：Android Studio常用快捷键和使用技巧](一分钟：Android Studio常用快捷键和使用技巧.md)
 * [一分钟：了解Android编译过程与核心编译工具Gradle](一分钟：了解Android编译过程与核心编译工具Gradle.md)
 * [一分钟：模拟器如何输入中文](yi-fen-zhong-ff1a-mo-ni-qi-ru-he-shu-ru-zhong-wen.md)
-* [一分钟：模拟器安装微信（等第三方应用）](yi-fen-zhong-ff1a-an-zhuang-wei-xin.md)
+* [一分钟：模拟器安装微信（第三方应用）](yi-fen-zhong-ff1a-an-zhuang-wei-xin.md)
 
