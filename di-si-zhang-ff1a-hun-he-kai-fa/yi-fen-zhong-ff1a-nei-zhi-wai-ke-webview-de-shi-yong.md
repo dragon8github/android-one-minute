@@ -48,6 +48,12 @@ public class MainActivity extends AppCompatActivity {
 
 ![](/assets/292193283293901.png)
 
+知识点：
+
+1、INTERNET权限的配置
+
+2、webView的使用
+
 ---
 
 # 一分钟赞赏
