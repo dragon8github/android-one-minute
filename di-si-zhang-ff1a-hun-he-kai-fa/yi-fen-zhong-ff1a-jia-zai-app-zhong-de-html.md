@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-2.1、实际上，我们使用webview加载 assets下面的文件可以使用一个简单的专用方法。
+2.1、实际上，我们使用webview加载 assets下面的文件可以使用一个简单的专用方法。结果也是一样的。
 
 ```java
 package com.example.lee.myapplication;
