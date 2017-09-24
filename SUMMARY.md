@@ -33,7 +33,8 @@
 
 ## 第四章：混合开发
 
-* [一分钟：内置外壳webView的使用](di-si-zhang-ff1a-hun-he-kai-fa/yi-fen-zhong-ff1a-nei-zhi-wai-ke-webview-de-shi-yong.md)
+* [一分钟：外壳webView的初体验](di-si-zhang-ff1a-hun-he-kai-fa/yi-fen-zhong-ff1a-nei-zhi-wai-ke-webview-de-shi-yong.md)
+* [一分钟：加载app中的html](di-si-zhang-ff1a-hun-he-kai-fa/yi-fen-zhong-ff1a-jia-zai-app-zhong-de-html.md)
 
 ## 扩展阅读
 
