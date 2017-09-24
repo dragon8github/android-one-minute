@@ -4,7 +4,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 上接：《一分钟：外壳webView的初体验》
 
-1、先在/src/main/ 中创建一个 assets 文件夹。并且创建一个index.html页面，加入以下测试代码
+1、先在/src/main 下创建一个 assets 文件夹。然后再 assets 中创建一个 index.html 页面，加入以下测试代码
 
 ```js
 <!DOCTYPE html>
