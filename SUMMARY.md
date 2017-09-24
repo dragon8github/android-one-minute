@@ -35,6 +35,7 @@
 
 * [一分钟：外壳webView的初体验](di-si-zhang-ff1a-hun-he-kai-fa/yi-fen-zhong-ff1a-nei-zhi-wai-ke-webview-de-shi-yong.md)
 * [一分钟：加载app中的html](di-si-zhang-ff1a-hun-he-kai-fa/yi-fen-zhong-ff1a-jia-zai-app-zhong-de-html.md)
+* [一分钟：android和javascript初步交互](di-si-zhang-ff1a-hun-he-kai-fa/yi-fenzhong-ff1aandroid-he-javascript-chu-bu-jiao-hu.md)
 
 ## 扩展阅读
 
