@@ -19,7 +19,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 </html>
 ```
 
-2、在后端代码：
+2、在 MainActivity.java 中输入以下后端代码，然后运行模拟器测试：
 
 ```java
 package com.example.lee.myapplication;
@@ -50,6 +50,28 @@ public class MainActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+}
+```
+
+2.1、实际上，我们使用webview加载 assets下面的文件可以使用一个简单的专用方法。
+
+```java
+package com.example.lee.myapplication;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+public class MainActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        WebView w = (WebView)findViewById(R.id.webview);
+        WebSettings ws = w.getSettings();
+        ws.setAppCacheEnabled(true);
+        ws.setJavaScriptEnabled(true);
+        w.loadUrl("file:///android_asset/index.html");
     }
 }
 ```
