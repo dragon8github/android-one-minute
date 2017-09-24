@@ -69,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
 
 1、在 AndroidManifest.xml 中通过配置 action 和 scheme / host，就可以在代码中，用 setAction + setData\(uri\) 来跳转界面了；
 
+2、在demo中没有体现出来，但事实上，如果出现不同的 activity 却有相同的 scheme / host 的情况，也没关系，因为我们可以通过代码setAction来告诉程序，应该读取哪个activity 下面的scheme / host。
+
 ---
 
 # 一分钟赞赏
