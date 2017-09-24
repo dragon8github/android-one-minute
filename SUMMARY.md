@@ -28,9 +28,12 @@
 * 一分钟：ViewPager
 * 一分钟：SQLite数据库
 * 一分钟：HTTP
-* 一分钟：使用网页：webview
 * 一分钟：地理位置
 * 一分钟：使用地图
+
+## 第四章：混合开发
+
+* [一分钟：内置外壳webView的使用](di-si-zhang-ff1a-hun-he-kai-fa/yi-fen-zhong-ff1a-nei-zhi-wai-ke-webview-de-shi-yong.md)
 
 ## 扩展阅读
 
