@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 2、AndroidManifest.xml的配置：
 
-```java
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lee.myapplication" >
@@ -60,10 +60,11 @@ public class MainActivity extends AppCompatActivity {
                 <data android:scheme="hello" android:host="world.com" />
             </intent-filter>
         </activity>
-    </application>
-    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    </application>   
 </manifest>
 ```
+
+
 
 知识点：
 
