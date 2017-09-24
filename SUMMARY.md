@@ -39,4 +39,5 @@
 * [一分钟：了解Android编译过程与核心编译工具Gradle](一分钟：了解Android编译过程与核心编译工具Gradle.md)
 * [一分钟：模拟器如何输入中文](yi-fen-zhong-ff1a-mo-ni-qi-ru-he-shu-ru-zhong-wen.md)
 * [一分钟：模拟器安装微信（第三方应用）](yi-fen-zhong-ff1a-an-zhuang-wei-xin.md)
+* [一分钟：用Uri的方式打开界面（Activity）](yi-fen-zhong-ff1ayong-uri-de-fang-shi-da-kai-jie-mian-ff08-activity.md)
 
