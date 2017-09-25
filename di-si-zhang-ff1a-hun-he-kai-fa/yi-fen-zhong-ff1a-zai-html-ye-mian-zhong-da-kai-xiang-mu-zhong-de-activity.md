@@ -23,7 +23,7 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 </html>
 ```
 
-2、新建一个预跳转页面login.xml 和 login.java，空白页面即可。
+2、新建一个预跳转页面login.xml 和 login.java，空白页面即可。而首页也只需要一个webView容器加载html即可。
 
 3、在 AndroidManifest.xml 中注册 login页面。
 
@@ -105,8 +105,6 @@ public class MainActivity extends AppCompatActivity {
     </intent-filter>
 </activity>
 ```
-
-
 
 ---
 
