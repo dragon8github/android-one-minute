@@ -4,7 +4,7 @@
 
 * [前言](README.md)
 * [模板](模板.md)
-* [一分钟：安装](一分钟：安装.md)
+* [一分钟：安装环境](一分钟：安装.md)
 * [一分钟：入门UI与布局](一分钟：入门UI与布局.md)
 * [一分钟：UI事件绑定与Toast提示组件](一分钟：UI事件绑定与Toast提示组件.md)
 * [一分钟实战：地理知识问卷（上）](一分钟实战：地理知识问卷.md)
@@ -36,6 +36,7 @@
 * [一分钟：外壳webView的初体验](di-si-zhang-ff1a-hun-he-kai-fa/yi-fen-zhong-ff1a-nei-zhi-wai-ke-webview-de-shi-yong.md)
 * [一分钟：加载app中的html](di-si-zhang-ff1a-hun-he-kai-fa/yi-fen-zhong-ff1a-jia-zai-app-zhong-de-html.md)
 * [一分钟：android和javascript初步交互](di-si-zhang-ff1a-hun-he-kai-fa/yi-fenzhong-ff1aandroid-he-javascript-chu-bu-jiao-hu.md)
+* [一分钟：在html页面中打开项目中的Activity](di-si-zhang-ff1a-hun-he-kai-fa/yi-fen-zhong-ff1a-zai-html-ye-mian-zhong-da-kai-xiang-mu-zhong-de-activity.md)
 
 ## 扩展阅读
 
