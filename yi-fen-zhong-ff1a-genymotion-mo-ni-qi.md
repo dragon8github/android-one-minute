@@ -2,7 +2,7 @@
 
 安装genymotion跨平台模拟器
 
-```java
+```py
 # 官方网站
 http://www.genymotion.net/
 
@@ -13,7 +13,7 @@ https://www.genymotion.com/download-trial/
 http://pan.baidu.com/s/1sk89mmp
 ```
 
-需要简单注册一下官网的账号才可以下载，也才可以使用该模拟器
+需要简单注册一下官网的账号（笔者使用了QQ邮箱）才可以下载，也才可以使用该模拟器
 
 下载安装完毕后，打开Genymotion模拟器。选择【use person】，并且【Add+】添加一个模拟器。
 
